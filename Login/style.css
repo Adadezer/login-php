@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("fundo-login-admin.jpg");
+    background-size: 100%;
+    color: white;
+}
+
+input{
+    display: block;
+    width: 400px;
+    height: 55px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16pt;
+    padding: 10px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+
+input[type=submit]{
+    margin-left: 20px;
+    background-color: teal;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+::-webkit-input-placeholder { /* Edge */
+    color: white;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+:-moz-input-placeholder { /* mozila */
+    color: white;
+}
+  
+::placeholder {
+    color: white;
+}
+
+div#formulario{
+    width: 420px;
+    margin: 150px auto 0px auto;
+
+}
+
+div#formulario-cadastro{
+    width: 420px;
+    margin: 50px auto 0px auto;
+
+}
+
+div#formulario h1, div#formulario-cadastro h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#formulario a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+}
+
+div#formulario a strong:hover{
+    text-decoration: underline;
+}
+
+div#msg-sucesso{
+    width: 380px;
+    margin: 10px 470px 10px auto;
+    padding: 10px;
+    background-color: green;
+}
+
+div.msg-erro{
+    width: 380px;
+    margin: 10px 470px 10px auto;
+    padding: 10px;
+    background-color: tomato;
+}
